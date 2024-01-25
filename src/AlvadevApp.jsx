@@ -1,5 +1,9 @@
+import { AppRouter } from "./router/AppRouter"
+
 export const AlvadevApp = () => {
   return (
-    <div>AlvadevApp</div>
+    <>
+      <AppRouter/>
+    </>
   )
 }
