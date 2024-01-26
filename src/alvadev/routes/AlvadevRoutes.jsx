@@ -6,7 +6,7 @@ export const AlvadevRoutes = () => {
   return (
     <div>
         <NavbarApp/>
-        <main className="flex flex-col h-screen">
+        <main className="container">
           <Routes>
             <Route path="home" element={<HomePage/>}/>
             <Route path="about" element={<AboutPage/>}/>
