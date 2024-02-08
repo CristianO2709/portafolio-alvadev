@@ -1,5 +1,5 @@
 export const FooterApp = () => {
   return (
-    <div>FooterApp</div>
+    <div className="footer">FooterApp</div>
   )
 }

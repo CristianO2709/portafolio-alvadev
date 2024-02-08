@@ -1,0 +1,149 @@
+.home-paragraph {
+    /* border: 2px solid green; */
+    /* min-height: 80vh; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 20px;
+    border: 1px solid black;
+}
+
+.mask-title {
+    font-weight: 800;
+    color: transparent;
+    font-size: 7.5rem;
+    position: relative;
+    text-align: center;
+    background: url(/assets/images/unsplash.jpg) repeat;
+    background-size: cover;
+    background-position: 40% 50%;
+    background-clip: text;
+}
+
+.information {
+    margin: 10px 0 10px 50px;
+    font-weight: 800;
+    font-size: 2.3rem;
+}
+
+.description {
+    margin: 0 60px;
+    font-size: 20px;
+}
+
+.btn {
+    margin: 20px 0px 20px 50px;
+    width: 150px;
+}
+
+.home-image {
+    /* border: 2px solid blue; */
+    /* min-height: 80vh; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+    border: 1px solid black;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
+
+/* max-width: se aplica cuando es menor */
+/* min-width: se aplica cuando es mayor */
+
+/* media screen smartphone */
+@media screen and (max-width: 767px) {
+    .home-paragraph {
+        /*border: 2px solid red;
+         display: flex;  */
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .mask-title {
+        font-size: 50px;
+    }
+
+    .information {
+        margin: 10px 0 10px 20px;
+        font-weight: 800;
+        font-size: 20px;
+    }
+
+    .description {
+        margin: 0 0 0 20px;
+        font-size: 16px;
+    }
+    
+    img{
+        width: 400px;
+        height: 400px;
+        object-fit: contain;
+    }
+
+    .btn {
+        margin: 50px 15px;
+        /* width: 197px;
+        height: 50px; */
+    }
+}
+/* media screen tabler and laptop */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .home-paragraph {
+        width: 100%;
+    }
+
+    .mask-title {
+        font-size: 125px;
+    }
+    
+    .information {
+        margin: 10px 60px;
+        font-weight: 800;
+        font-size: 2.5rem;
+    }
+
+    .description {
+        margin: 0 0px 10px 50px;
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        margin: 50px 60px;
+        width: 197px;
+        height: 50px;
+    }
+
+    img{
+        width: 450px;
+        height: 450px;
+        object-fit: contain;
+    }
+}
+/* media screen smartphone */
+@media screen and (min-width: 1024px) {
+    /*.mask-title {
+        border: 2px solid red;
+    } 
+
+     .information {
+        margin: 10px 0 10px 50px;
+        font-weight: 800;
+        font-size: 2.5rem;
+    }
+
+    .description {
+        margin: 0 0px 10px 50px;
+        font-size: 1.5rem;
+    }*/
+}
